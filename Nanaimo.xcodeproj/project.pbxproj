@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B239BC9B19FDD12100904471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239BC9A19FDD12100904471 /* Foundation.framework */; };
+		B239BC9D19FDD12100904471 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239BC9C19FDD12100904471 /* CoreGraphics.framework */; };
+		B239BC9F19FDD12100904471 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239BC9E19FDD12100904471 /* UIKit.framework */; };
+		B239BCA519FDD12100904471 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239BCA319FDD12100904471 /* InfoPlist.strings */; };
+		B239BCA719FDD12100904471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B239BCA619FDD12100904471 /* main.m */; };
+		B239BCAB19FDD12100904471 /* KennyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B239BCAA19FDD12100904471 /* KennyAppDelegate.m */; };
+		B239BCAE19FDD12100904471 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239BCAC19FDD12100904471 /* Main_iPhone.storyboard */; };
+		B239BCB119FDD12100904471 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239BCAF19FDD12100904471 /* Main_iPad.storyboard */; };
+		B239BCB419FDD12100904471 /* KennyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B239BCB319FDD12100904471 /* KennyViewController.m */; };
+		B239BCB619FDD12100904471 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B239BCB519FDD12100904471 /* Images.xcassets */; };
+		B239BCBD19FDD12100904471 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239BCBC19FDD12100904471 /* XCTest.framework */; };
+		B239BCBE19FDD12100904471 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239BC9A19FDD12100904471 /* Foundation.framework */; };
+		B239BCBF19FDD12100904471 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239BC9E19FDD12100904471 /* UIKit.framework */; };
+		B239BCC719FDD12100904471 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239BCC519FDD12100904471 /* InfoPlist.strings */; };
+		B239BCC919FDD12100904471 /* NanaimoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B239BCC819FDD12100904471 /* NanaimoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B239BCC019FDD12100904471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B239BC8F19FDD12100904471 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B239BC9619FDD12100904471;
+			remoteInfo = Nanaimo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B239BC9719FDD12100904471 /* Nanaimo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nanaimo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B239BC9A19FDD12100904471 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B239BC9C19FDD12100904471 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B239BC9E19FDD12100904471 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B239BCA219FDD12100904471 /* Nanaimo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nanaimo-Info.plist"; sourceTree = "<group>"; };
+		B239BCA419FDD12100904471 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B239BCA619FDD12100904471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B239BCA819FDD12100904471 /* Nanaimo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nanaimo-Prefix.pch"; sourceTree = "<group>"; };
+		B239BCA919FDD12100904471 /* KennyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KennyAppDelegate.h; sourceTree = "<group>"; };
+		B239BCAA19FDD12100904471 /* KennyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KennyAppDelegate.m; sourceTree = "<group>"; };
+		B239BCAD19FDD12100904471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B239BCB019FDD12100904471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B239BCB219FDD12100904471 /* KennyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KennyViewController.h; sourceTree = "<group>"; };
+		B239BCB319FDD12100904471 /* KennyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KennyViewController.m; sourceTree = "<group>"; };
+		B239BCB519FDD12100904471 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B239BCBB19FDD12100904471 /* NanaimoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanaimoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B239BCBC19FDD12100904471 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B239BCC419FDD12100904471 /* NanaimoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NanaimoTests-Info.plist"; sourceTree = "<group>"; };
+		B239BCC619FDD12100904471 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B239BCC819FDD12100904471 /* NanaimoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanaimoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B239BC9419FDD12100904471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239BC9D19FDD12100904471 /* CoreGraphics.framework in Frameworks */,
+				B239BC9F19FDD12100904471 /* UIKit.framework in Frameworks */,
+				B239BC9B19FDD12100904471 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B239BCB819FDD12100904471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239BCBD19FDD12100904471 /* XCTest.framework in Frameworks */,
+				B239BCBF19FDD12100904471 /* UIKit.framework in Frameworks */,
+				B239BCBE19FDD12100904471 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B239BC8E19FDD12100904471 = {
+			isa = PBXGroup;
+			children = (
+				B239BCA019FDD12100904471 /* Nanaimo */,
+				B239BCC219FDD12100904471 /* NanaimoTests */,
+				B239BC9919FDD12100904471 /* Frameworks */,
+				B239BC9819FDD12100904471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B239BC9819FDD12100904471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B239BC9719FDD12100904471 /* Nanaimo.app */,
+				B239BCBB19FDD12100904471 /* NanaimoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B239BC9919FDD12100904471 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B239BC9A19FDD12100904471 /* Foundation.framework */,
+				B239BC9C19FDD12100904471 /* CoreGraphics.framework */,
+				B239BC9E19FDD12100904471 /* UIKit.framework */,
+				B239BCBC19FDD12100904471 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B239BCA019FDD12100904471 /* Nanaimo */ = {
+			isa = PBXGroup;
+			children = (
+				B239BCA919FDD12100904471 /* KennyAppDelegate.h */,
+				B239BCAA19FDD12100904471 /* KennyAppDelegate.m */,
+				B239BCAC19FDD12100904471 /* Main_iPhone.storyboard */,
+				B239BCAF19FDD12100904471 /* Main_iPad.storyboard */,
+				B239BCB219FDD12100904471 /* KennyViewController.h */,
+				B239BCB319FDD12100904471 /* KennyViewController.m */,
+				B239BCB519FDD12100904471 /* Images.xcassets */,
+				B239BCA119FDD12100904471 /* Supporting Files */,
+			);
+			path = Nanaimo;
+			sourceTree = "<group>";
+		};
+		B239BCA119FDD12100904471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B239BCA219FDD12100904471 /* Nanaimo-Info.plist */,
+				B239BCA319FDD12100904471 /* InfoPlist.strings */,
+				B239BCA619FDD12100904471 /* main.m */,
+				B239BCA819FDD12100904471 /* Nanaimo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B239BCC219FDD12100904471 /* NanaimoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B239BCC819FDD12100904471 /* NanaimoTests.m */,
+				B239BCC319FDD12100904471 /* Supporting Files */,
+			);
+			path = NanaimoTests;
+			sourceTree = "<group>";
+		};
+		B239BCC319FDD12100904471 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B239BCC419FDD12100904471 /* NanaimoTests-Info.plist */,
+				B239BCC519FDD12100904471 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B239BC9619FDD12100904471 /* Nanaimo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B239BCCC19FDD12100904471 /* Build configuration list for PBXNativeTarget "Nanaimo" */;
+			buildPhases = (
+				B239BC9319FDD12100904471 /* Sources */,
+				B239BC9419FDD12100904471 /* Frameworks */,
+				B239BC9519FDD12100904471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nanaimo;
+			productName = Nanaimo;
+			productReference = B239BC9719FDD12100904471 /* Nanaimo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B239BCBA19FDD12100904471 /* NanaimoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B239BCCF19FDD12100904471 /* Build configuration list for PBXNativeTarget "NanaimoTests" */;
+			buildPhases = (
+				B239BCB719FDD12100904471 /* Sources */,
+				B239BCB819FDD12100904471 /* Frameworks */,
+				B239BCB919FDD12100904471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B239BCC119FDD12100904471 /* PBXTargetDependency */,
+			);
+			name = NanaimoTests;
+			productName = NanaimoTests;
+			productReference = B239BCBB19FDD12100904471 /* NanaimoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B239BC8F19FDD12100904471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Kenny;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KENNYSOFT;
+				TargetAttributes = {
+					B239BCBA19FDD12100904471 = {
+						TestTargetID = B239BC9619FDD12100904471;
+					};
+				};
+			};
+			buildConfigurationList = B239BC9219FDD12100904471 /* Build configuration list for PBXProject "Nanaimo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B239BC8E19FDD12100904471;
+			productRefGroup = B239BC9819FDD12100904471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B239BC9619FDD12100904471 /* Nanaimo */,
+				B239BCBA19FDD12100904471 /* NanaimoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B239BC9519FDD12100904471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239BCB119FDD12100904471 /* Main_iPad.storyboard in Resources */,
+				B239BCB619FDD12100904471 /* Images.xcassets in Resources */,
+				B239BCAE19FDD12100904471 /* Main_iPhone.storyboard in Resources */,
+				B239BCA519FDD12100904471 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B239BCB919FDD12100904471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239BCC719FDD12100904471 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B239BC9319FDD12100904471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239BCAB19FDD12100904471 /* KennyAppDelegate.m in Sources */,
+				B239BCB419FDD12100904471 /* KennyViewController.m in Sources */,
+				B239BCA719FDD12100904471 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B239BCB719FDD12100904471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239BCC919FDD12100904471 /* NanaimoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B239BCC119FDD12100904471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B239BC9619FDD12100904471 /* Nanaimo */;
+			targetProxy = B239BCC019FDD12100904471 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B239BCA319FDD12100904471 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239BCA419FDD12100904471 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B239BCAC19FDD12100904471 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239BCAD19FDD12100904471 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B239BCAF19FDD12100904471 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239BCB019FDD12100904471 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B239BCC519FDD12100904471 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239BCC619FDD12100904471 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B239BCCA19FDD12100904471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B239BCCB19FDD12100904471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B239BCCD19FDD12100904471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanaimo/Nanaimo-Prefix.pch";
+				INFOPLIST_FILE = "Nanaimo/Nanaimo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B239BCCE19FDD12100904471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanaimo/Nanaimo-Prefix.pch";
+				INFOPLIST_FILE = "Nanaimo/Nanaimo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B239BCD019FDD12100904471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nanaimo.app/Nanaimo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanaimo/Nanaimo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NanaimoTests/NanaimoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B239BCD119FDD12100904471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nanaimo.app/Nanaimo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nanaimo/Nanaimo-Prefix.pch";
+				INFOPLIST_FILE = "NanaimoTests/NanaimoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B239BC9219FDD12100904471 /* Build configuration list for PBXProject "Nanaimo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239BCCA19FDD12100904471 /* Debug */,
+				B239BCCB19FDD12100904471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B239BCCC19FDD12100904471 /* Build configuration list for PBXNativeTarget "Nanaimo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239BCCD19FDD12100904471 /* Debug */,
+				B239BCCE19FDD12100904471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B239BCCF19FDD12100904471 /* Build configuration list for PBXNativeTarget "NanaimoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239BCD019FDD12100904471 /* Debug */,
+				B239BCD119FDD12100904471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B239BC8F19FDD12100904471 /* Project object */;
+}
