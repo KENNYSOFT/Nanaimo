@@ -22,6 +22,24 @@
 		B239BCBF19FDD12100904471 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B239BC9E19FDD12100904471 /* UIKit.framework */; };
 		B239BCC719FDD12100904471 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B239BCC519FDD12100904471 /* InfoPlist.strings */; };
 		B239BCC919FDD12100904471 /* NanaimoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B239BCC819FDD12100904471 /* NanaimoTests.m */; };
+		B239BCD919FDD1B300904471 /* airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCD219FDD1B300904471 /* airplane.png */; };
+		B239BCDA19FDD1B300904471 /* airplane2.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCD319FDD1B300904471 /* airplane2.png */; };
+		B239BCDB19FDD1B300904471 /* airplane3.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCD419FDD1B300904471 /* airplane3.png */; };
+		B239BCDC19FDD1B300904471 /* airplanedown.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCD519FDD1B300904471 /* airplanedown.png */; };
+		B239BCDD19FDD1B300904471 /* airplaneup.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCD619FDD1B300904471 /* airplaneup.png */; };
+		B239BCDE19FDD1B300904471 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCD719FDD1B300904471 /* background.png */; };
+		B239BCDF19FDD1B300904471 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCD819FDD1B300904471 /* wall.png */; };
+		B239BCE219FDD85F00904471 /* JoyStickView.m in Sources */ = {isa = PBXBuildFile; fileRef = B239BCE119FDD85F00904471 /* JoyStickView.m */; };
+		B239BCE619FDD8A000904471 /* stick_base.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCE319FDD8A000904471 /* stick_base.png */; };
+		B239BCE719FDD8A000904471 /* stick_hold.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCE419FDD8A000904471 /* stick_hold.png */; };
+		B239BCE819FDD8A000904471 /* stick_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B239BCE519FDD8A000904471 /* stick_normal.png */; };
+		B257AED31A03136700A0A352 /* nibelung1.png in Resources */ = {isa = PBXBuildFile; fileRef = B257AED01A03136700A0A352 /* nibelung1.png */; };
+		B257AED41A03136700A0A352 /* nibelung2.png in Resources */ = {isa = PBXBuildFile; fileRef = B257AED11A03136700A0A352 /* nibelung2.png */; };
+		B257AED51A03136700A0A352 /* nibelung3.png in Resources */ = {isa = PBXBuildFile; fileRef = B257AED21A03136700A0A352 /* nibelung3.png */; };
+		B260DF3E1A07073C0044C9FB /* bullet3.png in Resources */ = {isa = PBXBuildFile; fileRef = B260DF3D1A07073C0044C9FB /* bullet3.png */; };
+		B260DF401A07077C0044C9FB /* bullet2.png in Resources */ = {isa = PBXBuildFile; fileRef = B260DF3F1A07077C0044C9FB /* bullet2.png */; };
+		B260DF421A0707A30044C9FB /* bullet1.png in Resources */ = {isa = PBXBuildFile; fileRef = B260DF411A0707A30044C9FB /* bullet1.png */; };
+		B260DF441A07106D0044C9FB /* congratulations.png in Resources */ = {isa = PBXBuildFile; fileRef = B260DF431A07106D0044C9FB /* congratulations.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +73,25 @@
 		B239BCC419FDD12100904471 /* NanaimoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NanaimoTests-Info.plist"; sourceTree = "<group>"; };
 		B239BCC619FDD12100904471 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B239BCC819FDD12100904471 /* NanaimoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NanaimoTests.m; sourceTree = "<group>"; };
+		B239BCD219FDD1B300904471 /* airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane.png; sourceTree = "<group>"; };
+		B239BCD319FDD1B300904471 /* airplane2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane2.png; sourceTree = "<group>"; };
+		B239BCD419FDD1B300904471 /* airplane3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane3.png; sourceTree = "<group>"; };
+		B239BCD519FDD1B300904471 /* airplanedown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplanedown.png; sourceTree = "<group>"; };
+		B239BCD619FDD1B300904471 /* airplaneup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplaneup.png; sourceTree = "<group>"; };
+		B239BCD719FDD1B300904471 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B239BCD819FDD1B300904471 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		B239BCE019FDD85F00904471 /* JoyStickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoyStickView.h; sourceTree = "<group>"; };
+		B239BCE119FDD85F00904471 /* JoyStickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoyStickView.m; sourceTree = "<group>"; };
+		B239BCE319FDD8A000904471 /* stick_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick_base.png; sourceTree = "<group>"; };
+		B239BCE419FDD8A000904471 /* stick_hold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick_hold.png; sourceTree = "<group>"; };
+		B239BCE519FDD8A000904471 /* stick_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stick_normal.png; sourceTree = "<group>"; };
+		B257AED01A03136700A0A352 /* nibelung1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nibelung1.png; sourceTree = "<group>"; };
+		B257AED11A03136700A0A352 /* nibelung2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nibelung2.png; sourceTree = "<group>"; };
+		B257AED21A03136700A0A352 /* nibelung3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nibelung3.png; sourceTree = "<group>"; };
+		B260DF3D1A07073C0044C9FB /* bullet3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet3.png; sourceTree = "<group>"; };
+		B260DF3F1A07077C0044C9FB /* bullet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet2.png; sourceTree = "<group>"; };
+		B260DF411A0707A30044C9FB /* bullet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet1.png; sourceTree = "<group>"; };
+		B260DF431A07106D0044C9FB /* congratulations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congratulations.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +153,8 @@
 			children = (
 				B239BCA919FDD12100904471 /* KennyAppDelegate.h */,
 				B239BCAA19FDD12100904471 /* KennyAppDelegate.m */,
+				B239BCE019FDD85F00904471 /* JoyStickView.h */,
+				B239BCE119FDD85F00904471 /* JoyStickView.m */,
 				B239BCAC19FDD12100904471 /* Main_iPhone.storyboard */,
 				B239BCAF19FDD12100904471 /* Main_iPad.storyboard */,
 				B239BCB219FDD12100904471 /* KennyViewController.h */,
@@ -129,6 +168,23 @@
 		B239BCA119FDD12100904471 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B239BCD219FDD1B300904471 /* airplane.png */,
+				B239BCD319FDD1B300904471 /* airplane2.png */,
+				B239BCD419FDD1B300904471 /* airplane3.png */,
+				B239BCD519FDD1B300904471 /* airplanedown.png */,
+				B239BCD619FDD1B300904471 /* airplaneup.png */,
+				B239BCD719FDD1B300904471 /* background.png */,
+				B239BCD819FDD1B300904471 /* wall.png */,
+				B239BCE319FDD8A000904471 /* stick_base.png */,
+				B239BCE419FDD8A000904471 /* stick_hold.png */,
+				B239BCE519FDD8A000904471 /* stick_normal.png */,
+				B257AED01A03136700A0A352 /* nibelung1.png */,
+				B257AED11A03136700A0A352 /* nibelung2.png */,
+				B257AED21A03136700A0A352 /* nibelung3.png */,
+				B260DF411A0707A30044C9FB /* bullet1.png */,
+				B260DF3F1A07077C0044C9FB /* bullet2.png */,
+				B260DF3D1A07073C0044C9FB /* bullet3.png */,
+				B260DF431A07106D0044C9FB /* congratulations.png */,
 				B239BCA219FDD12100904471 /* Nanaimo-Info.plist */,
 				B239BCA319FDD12100904471 /* InfoPlist.strings */,
 				B239BCA619FDD12100904471 /* main.m */,
@@ -232,10 +288,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B239BCD919FDD1B300904471 /* airplane.png in Resources */,
+				B239BCDE19FDD1B300904471 /* background.png in Resources */,
 				B239BCB119FDD12100904471 /* Main_iPad.storyboard in Resources */,
 				B239BCB619FDD12100904471 /* Images.xcassets in Resources */,
+				B260DF441A07106D0044C9FB /* congratulations.png in Resources */,
 				B239BCAE19FDD12100904471 /* Main_iPhone.storyboard in Resources */,
+				B239BCE619FDD8A000904471 /* stick_base.png in Resources */,
+				B257AED41A03136700A0A352 /* nibelung2.png in Resources */,
+				B257AED31A03136700A0A352 /* nibelung1.png in Resources */,
+				B260DF401A07077C0044C9FB /* bullet2.png in Resources */,
+				B239BCDF19FDD1B300904471 /* wall.png in Resources */,
+				B239BCDB19FDD1B300904471 /* airplane3.png in Resources */,
+				B257AED51A03136700A0A352 /* nibelung3.png in Resources */,
+				B239BCDA19FDD1B300904471 /* airplane2.png in Resources */,
 				B239BCA519FDD12100904471 /* InfoPlist.strings in Resources */,
+				B239BCDD19FDD1B300904471 /* airplaneup.png in Resources */,
+				B239BCE719FDD8A000904471 /* stick_hold.png in Resources */,
+				B260DF3E1A07073C0044C9FB /* bullet3.png in Resources */,
+				B239BCDC19FDD1B300904471 /* airplanedown.png in Resources */,
+				B239BCE819FDD8A000904471 /* stick_normal.png in Resources */,
+				B260DF421A0707A30044C9FB /* bullet1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B239BCE219FDD85F00904471 /* JoyStickView.m in Sources */,
 				B239BCAB19FDD12100904471 /* KennyAppDelegate.m in Sources */,
 				B239BCB419FDD12100904471 /* KennyViewController.m in Sources */,
 				B239BCA719FDD12100904471 /* main.m in Sources */,
@@ -471,6 +545,7 @@
 				B239BCCE19FDD12100904471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B239BCCF19FDD12100904471 /* Build configuration list for PBXNativeTarget "NanaimoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +554,7 @@
 				B239BCD119FDD12100904471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
